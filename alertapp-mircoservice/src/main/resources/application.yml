@@ -1,0 +1,22 @@
+spring:
+    application:
+        name: alert
+    oauth2:
+        client:
+              accessTokenUri: {{ uaa.uri_access_token}}
+              userAuthorizationUri: {{ uaa.uri_user_authorize }}
+              clientId: {{ uaa.client_id }}
+              clientSecret: {{ uaa.client_secret }}
+              scope: uaa.user cloud_controller.read cloud_controller.write openid password.write scim.userids cloud_controller.admin scim.read scim.write
+        resource:
+              userInfoUri: {{ uaa.uri_user_info }}
+              jwt.keyUri: {{ uaa.uri_jwt_key }}
+        http:
+              encoding:
+              charset: UTF-8
+              enabled: true
+              force: true
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apps-service/alert/alert.iml" filepath="$PROJECT_DIR$/apps-service/alert/alert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alertapp-mircoservice/alertapp-mircoservice.iml" filepath="$PROJECT_DIR$/alertapp-mircoservice/alertapp-mircoservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-microservice/api-gateway-microservice.iml" filepath="$PROJECT_DIR$/api-gateway-microservice/api-gateway-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataviewer-mircoservice/dataviewer-mircoservice.iml" filepath="$PROJECT_DIR$/dataviewer-mircoservice/dataviewer-mircoservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-microservice/discovery-microservice.iml" filepath="$PROJECT_DIR$/discovery-microservice/discovery-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/express.iml" filepath="$PROJECT_DIR$/express.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uaa-mircoservice/uaa-mircoservice.iml" filepath="$PROJECT_DIR$/uaa-mircoservice/uaa-mircoservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>
