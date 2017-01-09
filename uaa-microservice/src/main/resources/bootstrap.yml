@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: Authserver
+
+server:
+    port: 8080
+    context-path: /uaa
+sidecar:
+  port: 8000
+
+#logging:
+#  level:
+#    org.springframework.security: DEBUG
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+debug: true

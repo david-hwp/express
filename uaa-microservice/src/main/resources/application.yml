@@ -1,0 +1,4 @@
+security:
+  user:
+    password: password
+  ignored: /css/**,/js/**,/favicon.ico,/webjars/**,/eureka/**

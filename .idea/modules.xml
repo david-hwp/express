@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/apps-service/alert/alert.iml" filepath="$PROJECT_DIR$/apps-service/alert/alert.iml" />
-      <module fileurl="file://$PROJECT_DIR$/alertapp-mircoservice/alertapp-mircoservice.iml" filepath="$PROJECT_DIR$/alertapp-mircoservice/alertapp-mircoservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alert-app-microservice/alert-app-microservice.iml" filepath="$PROJECT_DIR$/alert-app-microservice/alert-app-microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/api-gateway-microservice/api-gateway-microservice.iml" filepath="$PROJECT_DIR$/api-gateway-microservice/api-gateway-microservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dataviewer-mircoservice/dataviewer-mircoservice.iml" filepath="$PROJECT_DIR$/dataviewer-mircoservice/dataviewer-mircoservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-microservice/config-microservice.iml" filepath="$PROJECT_DIR$/config-microservice/config-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataviewer-microservice/dataviewer-microservice.iml" filepath="$PROJECT_DIR$/dataviewer-microservice/dataviewer-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataviewer-microservice/dataviewer-mircoservice.iml" filepath="$PROJECT_DIR$/dataviewer-microservice/dataviewer-mircoservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/discovery-microservice/discovery-microservice.iml" filepath="$PROJECT_DIR$/discovery-microservice/discovery-microservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/express.iml" filepath="$PROJECT_DIR$/express.iml" />
-      <module fileurl="file://$PROJECT_DIR$/uaa-mircoservice/uaa-mircoservice.iml" filepath="$PROJECT_DIR$/uaa-mircoservice/uaa-mircoservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/express.iml" filepath="$PROJECT_DIR$/.idea/express.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uaa-microservice/uaa-microservice.iml" filepath="$PROJECT_DIR$/uaa-microservice/uaa-microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>

@@ -1,0 +1,41 @@
+security:
+  user:
+    password: user
+  ignored: /,/favicon.ico,/index.html,/home.html,/dashboard.html,/js/**,/css/**,/webjars/**
+  sessions: ALWAYS
+  oauth2:
+    sso:
+      loginPath: /dashboard/login
+#         client:
+#              accessTokenUri: {{ uaa.uri_access_token}}
+#              userAuthorizationUri: {{ uaa.uri_user_authorize }}
+#              clientId: {{ uaa.client_id }}
+#              clientSecret: {{ uaa.client_secret }}
+#              scope: uaa.user cloud_controller.read cloud_controller.write openid password.write scim.userids cloud_controller.admin scim.read scim.write
+#        resource:
+#              userInfoUri: {{ uaa.uri_user_info }}
+#              jwt.keyUri: {{ uaa.uri_jwt_key }}
+    client:
+       accessTokenUri: http://localhost:8080/uaa/oauth/token
+       userAuthorizationUri: http://localhost:8080/uaa/oauth/authorize
+       clientId: app1
+       clientSecret: app1_secret
+    resource:
+        jwt:
+            keyValue: |
+                -----BEGIN PUBLIC KEY-----
+                MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt0o9jymfIKYfWNXwpt42
+                HLTOXb864nxHOXvUK2zqBhetRdLkY8Xd9CLuWQlTso3SlnrBDcqCcpGpmqg6yj+U
+                DbPkGHv7HeMiC953ffsBq9K7mrMne9jIspwa9B+wxMnnUbsBw9n8TJf6NByvGZuJ
+                UPNh0StCKahaNUN24CHgEGAFy/6l0vAFKZje8TqJhsgNTHVpkZ5bPPFSd6mRUUgj
+                kSI8AzkkGjuyQR2i8nIRG0HNqcGqy9WUIYlw1JCt0FZ55I2gY9/HgrsJyUFW1zQY
+                J0yKH+q+mRY8oRktLVQIutRXJqLT30tSAbeJ/lef7tyt2fjuPizi3ZzT4+gg42g3
+                MwIDAQAB
+                -----END PUBLIC KEY-----
+        id: openid
+        serviceId: ${PREFIX:}resource
+#management:
+#  security:
+#    role: HERO
+
+
